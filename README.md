@@ -37,8 +37,9 @@ Probado en Windows 11 con una NVIDIA RTX 3070.
 ## Cómo jugar (paquete de binarios)
 
 1. Descomprime tu archivo de Peggle (XBLA) con wxPirs y desencripta el default.xex con XeXTool.
-2. Copia el contenido de tu copia del juego en la carpeta `extracted\` (debe quedar `extracted\default.xex`).
-3. Ejecuta `jugar_peggle.bat`.
+2. Comandos usados para XeXTool: xextool -c u -e u -o default_clean.xex default.xex; xextool -b Thunderball.exe default_clean.xex 
+3. Copia el contenido de tu copia del juego en la carpeta `extracted\` (debe quedar `extracted\default.xex`).
+4. Ejecuta `jugar_peggle.bat`.
 
 ## Controles
 
