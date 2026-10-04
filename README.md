@@ -36,7 +36,7 @@ Probado en Windows 11 con una NVIDIA RTX 3070.
 
 ## Cómo jugar (paquete de binarios)
 
-1. Descomprime el paquete.
+1. Descomprime tu archivo de Peggle (XBLA) con wxPirs y desencripta el default.xex con XeXTool.
 2. Copia el contenido de tu copia del juego en la carpeta `extracted\` (debe quedar `extracted\default.xex`).
 3. Ejecuta `jugar_peggle.bat`.
 
@@ -100,6 +100,7 @@ jugar_peggle.bat
 - [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk) (BSD-3-Clause), basado en el trabajo de [Xenia](https://xenia.jp).
 - El proyecto de recompilación de Lumines Live de sp00nznet sirvió de base y de referencia para el flujo de trabajo.
 - Peggle es propiedad de sus respectivos dueños.
+- **Aviso de asistencia por IA:** Partes del código, refactorizaciones y documentación de este proyecto han sido desarrolladas con el soporte de **Claude Code** (Anthropic).
 
 ## Licencia
 
