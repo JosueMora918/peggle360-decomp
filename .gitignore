@@ -1,0 +1,39 @@
+# --- Archivos del juego (NO subir nunca) ---
+extracted/
+*.xex
+*.xexp
+
+# --- Codigo generado a partir del binario del juego (se regenera con: rexglue codegen) ---
+generated/default/
+
+# --- Compilacion ---
+out/
+build/
+cmake-build-*/
+*.exe
+*.dll
+*.pdb
+*.map
+
+# --- Logs, copias de seguridad y temporales ---
+*.log
+*.orig
+*.bak
+_archive/
+backup_*/
+peggle_manifest.bak*
+peggle_manifest.pre_clean
+thunks*.txt
+
+# --- Datos de usuario ---
+userdata/
+
+# --- IDEs ---
+.vs/
+.idea/
+.vscode/
+
+# --- Paquetes de distribucion ---
+release/
+dist/
+*.zip

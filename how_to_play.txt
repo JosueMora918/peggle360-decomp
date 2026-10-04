@@ -1,0 +1,57 @@
+PEGGLE (port de Xbox 360 a PC) - CONTROLES
+==========================================
+
+El juego se controla con el teclado mediante la emulacion de mando del SDK
+(--mnk_mode). Ya esta activada en jugar_peggle.bat.
+
+EN EL NIVEL
+-----------
+  A / D ............ Mover el canon (stick izquierdo)              [probado]
+  Espacio .......... Disparar la bola (boton A)                    [probado]
+  I ................ Apuntado preciso, mas lento (gatillo izq.)    [probado]
+  P ................ Instant replay (boton Y)                      [probado]
+  Enter ............ Start / pausa (boton Start)                   [probado]
+
+OTRAS TECLAS (mapa por defecto del driver; sin probar en Peggle)
+-----------------------------------------------------------------
+  Q ................ Gatillo izquierdo (igual que I)
+  E u O ............ Gatillo derecho
+  1 / 3 ............ Bumper izquierdo / derecho
+  ; ................ Boton A (igual que Espacio)
+  ' o Retroceso .... Boton B
+  L ................ Boton X
+  Z o Tab .......... Boton Back
+  X ................ Boton Start (igual que Enter)
+  W / S ............ Stick izquierdo arriba / abajo
+  Flechas .......... Stick derecho
+  Shift + flechas .. Cruceta (D-pad)
+  F / K ............ Pulsar stick izquierdo / derecho
+
+MENUS
+-----
+  W / A / S / D .... Moverse por los menus (stick izquierdo)       [probado]
+  Espacio .......... Aceptar (boton A)                             [sin probar]
+  Retroceso o ' .... Volver (boton B)                              [sin probar]
+
+CAMBIAR TECLAS
+--------------
+Se hace con flags en jugar_peggle.bat. Cada boton admite varias teclas
+separadas por comas, y se pueden usar los prefijos Shift+, Ctrl+ y Alt+.
+
+  Ejemplo:  --keybind_a="Space,Return"
+            --keybind_left_trigger="I,Q"
+
+Botones disponibles: keybind_a, keybind_b, keybind_x, keybind_y,
+keybind_left_shoulder, keybind_right_shoulder, keybind_left_trigger,
+keybind_right_trigger, keybind_lstick_up/down/left/right,
+keybind_rstick_up/down/left/right, keybind_dpad_up/down/left/right,
+keybind_back, keybind_start.
+
+OPCIONES DEL LANZADOR (jugar_peggle.bat)
+----------------------------------------
+  --mnk_mode                       Usa el teclado como mando (necesario)
+  --fullscreen / --no-fullscreen   Pantalla completa o ventana
+  --present_letterbox              Barras negras para respetar la relacion de aspecto
+  --license_mask=1                 Juego completo (sin modo demo)
+  --protect_on_release             Evita un crash intermitente (ver peggle.log)
+  --log_file=peggle.log            Registro de la ultima sesion
